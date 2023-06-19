@@ -1,0 +1,86 @@
+body {
+    font-family: arial;
+  background-image: linear-gradient(to bottom right, black, white);
+  color: white;
+  background-attachment: fixed;
+user-select: none;    
+}
+
+
+.navbar{
+  
+  text-shadow: 0px 0px 5px black;
+  text-align: center;
+  font-size: 30px;
+  font-family: monospace;
+  
+}
+
+input{
+  background-color: transparent;
+  border: 5px solid white;
+  padding: 20px;
+  font-family: "rodex";
+  font-size: 25px;
+  color: white;
+  width: 80%;
+  border-radius: 20px;
+  transition-property: border;
+  transition-duration: 0.5s;
+  transition-timing-function: 1;
+}
+input:hover{
+  border: 10px solid white;
+}
+input:active {
+  border: 10px solid blue;
+}
+input:focus {
+  border: 10px solid blue;
+}
+
+.btn-01{
+  border: 5px solid white;
+  color: black;
+  font-family: "fly";
+  background-color: white;
+  padding: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  transition-property: border, background-color, scale;
+  transition-duration: 0.5s;
+  transition-timing-function: 1;
+}
+.btn-01:hover{
+  background-color: transparent;
+  color: white;
+}
+.btn-01:active {
+  background-color: green;
+  color: green;
+  scale: 1.1;
+}
+.btn-01:focus {
+  background-color: transparent;
+  color: white;
+}
+
+.text-01{
+  font-family: "fly";
+  text-shadow: 0px 0px 5px white;
+}
+
+.apps img{
+  width: 100px;
+  margin: 20px;
+}
+.apps{
+  text-align: center;
+  transition-property: scale;
+  transition-duration: 0.2s;
+  transition-timing-function: 1;
+}
+.apps:hover{
+  scale: 1.1;
+  cursor: pointer;
+}
